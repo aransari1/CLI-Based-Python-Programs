@@ -1,8 +1,8 @@
 # CLI-Based-Python-Programs
 <br>
-<b>Maintainer:</b> Abdurrahman Ansari
+<b>🛠️Maintainer:</b> Abdurrahman Ansari
 <br>
-<b>Aim: </b>To test every program in CLI based interface before GUI.
+<b>🎯Aim: </b>To test every program in CLI based interface before GUI.
 <br>
 <i>Maintaining the records of learning the logical building.</i>
 <br>
