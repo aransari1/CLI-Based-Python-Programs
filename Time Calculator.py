@@ -33,12 +33,13 @@ def Seconds_to_Minute_Conversion(Total_Minutes,Total_Seconds):
     return Total_Minutes, Total_Seconds
 
 while True:
-    Choice = input("To Quit enter: 'Q' : ")
-    if Choice == ("q" or "Q"):
-        Time_Calculate(Minutes_List,Seconds_List)
-        break
-    else:
-        Input_Time = input("Enter the Time: ")
-        Minutes, Seconds = Time_Sorter(Input_Time)
-        Minutes_List.append (Minutes)
-        Seconds_List.append (Seconds)
+     Input_Time = input("Enter the Time:    ")
+     Minutes, Seconds = Time_Sorter(Input_Time)
+     Minutes_List.append (Minutes)
+     Seconds_List.append (Seconds)
+     Choice = input("To Quit enter: 'Q' : ")
+     if Choice == ("q" or "Q"):
+         Time_Calculate(Minutes_List,Seconds_List)
+         break
+     else:
+        continue
